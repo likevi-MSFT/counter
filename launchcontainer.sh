@@ -1,0 +1,1 @@
+docker run -d --log-driver json-file --log-opt max-file=5 --log-opt max-size=1k counter
